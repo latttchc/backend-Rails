@@ -295,6 +295,9 @@ GEM
     thruster (0.1.13-x86_64-darwin)
     thruster (0.1.13-x86_64-linux)
     timeout (0.4.3)
+    ts_schema (1.0.1)
+      rails (>= 6.0.0)
+      railties (>= 4)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.1.4)
@@ -334,6 +337,7 @@ DEPENDENCIES
   solid_queue
   sqlite3 (>= 2.1)
   thruster
+  ts_schema (~> 1.0)
   tzinfo-data
 
 BUNDLED WITH

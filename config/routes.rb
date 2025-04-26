@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   # → 返すデータはデフォルトで JSON形式 になる。
   # resources :users
   # → ユーザーのCRUD APIを自動で作成する
-  namespace :v1, defaults: { format: "json" } do
+  namespace "v1", defaults: { format: "json" } do
     resources :users
   end
 end
